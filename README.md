@@ -1087,17 +1087,12 @@ tests/Feature/
 **Muhammad Ali Nawaz**  
 PHP / Laravel Developer
 
-GharProperty.pk is an original portfolio project designed and developed by Muhammad Ali Nawaz.
-
 ---
 
 ## 📄 License
 
 This project is open-source software licensed under the [MIT License](LICENSE).
 
-```text
-Copyright (c) 2026 Muhammad Ali Nawaz
-```
 
 ---
 
