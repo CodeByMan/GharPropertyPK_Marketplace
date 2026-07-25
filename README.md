@@ -26,8 +26,6 @@
 
 GharProperty.pk is a responsive full-stack property marketplace built with Laravel, Vue, Inertia.js, Tailwind CSS, and MySQL. It supports public property discovery, verified user accounts, seller property management, image galleries, secure offer workflows, notifications, soft deletion and restoration, and deterministic local demonstration data.
 
-The project demonstrates practical Laravel development through authorization policies, Form Request validation, Eloquent relationships, database constraints, transactions, row locking, secure image uploads, automated tests, CI verification, and a responsive Vue interface.
-
 ## Features
 
 ### Public marketplace
@@ -186,12 +184,6 @@ npm run dev
 
 Continue using the Laravel URL on port `8000`.
 
-## Optional local demonstration data
-
-Demonstration seeding is blocked outside local and testing environments and requires an explicit opt-in and strong password.
-
-> `migrate:fresh` deletes all existing database tables and data. Use it only with a disposable local database.
-
 ```powershell
 $env:APP_ENV = "local"
 $env:ALLOW_DEMO_SEEDING = "true"
@@ -259,10 +251,14 @@ Last locally verified result:
 ## Author and copyright
 
 **Muhammad Ali Nawaz**  
-PHP / Laravel Developer
-
-Copyright © 2026 Muhammad Ali Nawaz. All project source code and original project assets are released under the MIT License.
+Laravel Developer
 
 ## License
 
 This project is open-source software licensed under the [MIT License](LICENSE).
+
+---
+
+<p align="center">
+  <b>⭐ If you like this project, consider starring the repository!</b>
+</p>
