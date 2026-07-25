@@ -1,0 +1,31 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "fix:eslint": "eslint --ext .js,.vue resources/js/ --fix",
+        "lint": "eslint --ext .js,.vue resources/js/"
+    },
+    "devDependencies": {
+        "@eslint/eslintrc": "^2.1.4",
+        "@tailwindcss/forms": "^0.5.10",
+        "@vitejs/plugin-vue": "^6.0.8",
+        "autoprefixer": "^10.4.21",
+        "eslint": "^8.57.1",
+        "eslint-plugin-vue": "^9.33.0",
+        "laravel-vite-plugin": "^3.1.3",
+        "postcss": "^8.5.6",
+        "tailwindcss": "^3.4.19",
+        "vite": "^8.1.5",
+        "vue": "^3.5.40"
+    },
+    "dependencies": {
+        "@inertiajs/vue3": "^3.6.1",
+        "lodash": "^4.17.21",
+        "vue-easy-lightbox": "^1.16.0",
+        "ziggy-js": "^2.6.0"
+    },
+    "name": "gharproperty-pk",
+    "description": "GharProperty.pk frontend application."
+}

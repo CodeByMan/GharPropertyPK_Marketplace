@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title description">
+  <title id="title">Default user avatar</title>
+  <desc id="description">Professional user silhouette on a soft green background.</desc>
+  <defs>
+    <linearGradient id="background" x1="18" y1="10" x2="108" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4FAF0"/>
+      <stop offset="1" stop-color="#DCEFD2"/>
+    </linearGradient>
+    <linearGradient id="figure" x1="40" y1="29" x2="88" y2="104" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5E9E3E"/>
+      <stop offset="1" stop-color="#366D25"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="62" fill="url(#background)"/>
+  <circle cx="64" cy="49" r="21" fill="url(#figure)"/>
+  <path d="M25 111c2.8-25.4 18.3-40 39-40s36.2 14.6 39 40" fill="url(#figure)"/>
+  <circle cx="64" cy="64" r="61" fill="none" stroke="#B9D9A8" stroke-width="2"/>
+</svg>

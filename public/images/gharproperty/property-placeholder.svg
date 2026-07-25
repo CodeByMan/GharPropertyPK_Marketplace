@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title description">
+  <title id="title">Property image placeholder</title>
+  <desc id="description">A clean illustration used when a property has no uploaded photograph.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef5ea"/>
+      <stop offset="1" stop-color="#dcebd5"/>
+    </linearGradient>
+    <linearGradient id="home" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#76b950"/>
+      <stop offset="1" stop-color="#4e8c31"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#background)"/>
+  <circle cx="1010" cy="145" r="92" fill="#ffffff" opacity=".55"/>
+  <circle cx="185" cy="665" r="145" fill="#ffffff" opacity=".38"/>
+  <path d="M250 450 600 185l350 265v220H250Z" fill="#fff" stroke="#c7d9bf" stroke-width="18" stroke-linejoin="round"/>
+  <path d="m210 455 390-295 390 295" fill="none" stroke="url(#home)" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="510" y="430" width="180" height="240" rx="16" fill="url(#home)"/>
+  <rect x="330" y="435" width="125" height="115" rx="14" fill="#dcebd5" stroke="#9fbe91" stroke-width="12"/>
+  <rect x="745" y="435" width="125" height="115" rx="14" fill="#dcebd5" stroke="#9fbe91" stroke-width="12"/>
+  <path d="M120 690h960" stroke="#a8c69a" stroke-width="18" stroke-linecap="round"/>
+  <text x="600" y="750" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#4b6242">Property image coming soon</text>
+</svg>
